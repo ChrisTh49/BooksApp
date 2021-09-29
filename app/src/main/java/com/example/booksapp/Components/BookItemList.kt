@@ -57,14 +57,14 @@ fun ItemBookList(
 
             Column() {
                 Text(
-                    text = "by $author",
-                    style = typography.caption,
+                    text = title,
+                    style = typography.subtitle1,
                     color = MaterialTheme.colors.primaryVariant.copy(0.7F),
                 )
                 Spacer(modifier = Modifier.height(8.dp))
                 Text(
-                    text = title,
-                    style = typography.subtitle1,
+                    text = "by $author",
+                    style = typography.caption,
                     color = MaterialTheme.colors.primaryVariant.copy(0.7F),
                 )
                 Spacer(modifier = Modifier.height(12.dp))
